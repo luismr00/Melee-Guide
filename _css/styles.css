@@ -1,0 +1,113 @@
+html, body {
+	background: #191919; 
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: white;
+}
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 100%;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 2.5% 2.5% 0;
+	color: white;
+	line-height: 1.8;
+}
+h1 {
+	font: 1.6em Verdana, Geneva, sans-serif;
+	margin-bottom: .4em;
+	color: rgb(83, 104, 138);
+}
+h2 {
+	font: 1.6em Georgia, "Times New Roman", Times, serif;
+	margin-bottom: .2em;
+	text-align: center;
+	color: white;
+}
+h3 {
+	font-size: 1.2em;
+}
+p {
+	margin-bottom: 1em;
+}
+a {
+	color: rgb(184, 126, 84);
+}
+
+a:hover {
+	color: rgb(120, 97, 55);
+}
+
+.center {
+	text-align: center;
+}
+header h2 {
+	padding-bottom: .2em;
+	border-bottom: 1px solid gray;
+}
+footer {
+	border-top: 1px solid gray;
+	text-align: center;
+	font-size: .8em;
+	line-height: 4em;
+	margin-top: 1em;
+}
+
+.imgHome {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50%;
+	padding: 25px 0;
+}
+
+textarea {
+	display: block;
+}
+
+math {
+	background: white;
+	color: black;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 20%;
+}
+
+
+.focus {
+    background-color: purple;
+	color: black;
+}
+
+
+caption {
+    padding: 8px 0;
+    caption-side: bottom;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(100, 100, 100);
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    font-size: .7rem;
+}
+
+td,
+th {
+    border: 1px solid rgb(100, 100, 100);
+    padding: 10px 10px;
+	/* max-width: 10px; */
+}
+
+td {
+    text-align: center;
+}

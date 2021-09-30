@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<title>Introduction to HTML</title>
+<link href="_css/styles.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+    function messageStatus() {
+        let email = document.getElementById('email').value;
+        console.log(email);
+        if (email.length != 0) 
+            alert("Used the script element and verified an email input sucessfully!")
+        else 
+            alert("Used the script element but no email was inputted.")
+    }
+    </script>
+</head>
+<body>
+<header role="banner">
+  <h1>SSBM Guia</h1>
+  <nav role="navigation">
+    <ul>
+      <li><a href="index.html" title="home">Inicio</a></li>
+      <li><a href="punish.html" title="punish">Punish Game</a></li>
+      <li><a href="neutral.html" title="neutral">Neutral Game</a></li>
+      <li><a href="edgeguards.html" title="edgeguards">Edgeguarding</a></li>
+      <li><a href="bibliography.html" title="bibliography">Bibliografia</a></li>
+      <li><a href="contact.html" title="contact">Contacto</a></li>
+    </ul>
+  </nav>
+</header>
+<main role="main">
+  <article role="article">
+    <section>
+        <p>Si tienen algunas sugerencias o quieres ayudar a mejorar este guia, puedes mandarme un mensaje a mi correo empezando por llenar este forma en la parte superior de este parrafo.</p>
+        <form id="message" onsubmit="messageStatus()">
+            <label for="email">Your name</label>
+            <input type="text" id="email" inputmode="email">
+            <textarea rows="4" cols="50" name="comment" form="usrform"></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+  </article>
+</main>
+<footer role="contentinfo">
+    <p>2021 Luis Rangel</p>
+</footer>
+
+</body>
+</html>
