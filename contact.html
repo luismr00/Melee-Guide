@@ -5,6 +5,8 @@
 <title>Introduction to HTML</title>
 <link href="_css/styles.css" rel="stylesheet" type="text/css">
 <script type="text/javascript">
+    // Added a script element with just a little bit of code to add to the HTML form. It was not needed but I just wanted to a little extra to make the form more interactive and less boring which at very least only gives out a brief alert. 
+    // It does take the value of the 'for' attribute so thats why I wanted to test it with this script. 
     function messageStatus() {
         let email = document.getElementById('email').value;
         console.log(email);
@@ -32,6 +34,9 @@
 <main role="main">
   <article role="article">
     <section>
+        <!-- Used 'inputmode' and 'for' attributes within the form.  -->
+        <!-- inpputmode specifies the type of input that it expects from the user. The for attribute just specifies which form element a lable is bound to. In this case, -->
+        <!-- line 42 and 43 are bound together and later accessed within the script above. Nothing really complicated, just something short and sweet. -->
         <p>Si tienen algunas sugerencias o quieres ayudar a mejorar este guia, puedes mandarme un mensaje a mi correo empezando por llenar este forma en la parte superior de este parrafo.</p>
         <form id="message" onsubmit="messageStatus()">
             <label for="email">Your name</label>
